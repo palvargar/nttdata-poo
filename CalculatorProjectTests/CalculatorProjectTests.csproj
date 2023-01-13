@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="CalculatorTests.cs" />
     <Compile Include="Loops\PrintProductTests.cs" />
+    <Compile Include="PlanDePensiones\CalculoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
