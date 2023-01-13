@@ -23,5 +23,13 @@ namespace CalculatorProject.PlanDePensiones
             AportacionPlanPersonaFisica = aportacionPlanPersonaFisica;
             AportacionPlanEmpresa= aportacionPlanEmpresa;
         }
+
+        public PlanDePensiones(float baseImponible, float aportacionPlanPersonaFisica, float aportacionPlanEmpresa, string pais)
+        {
+            Base = baseImponible;
+            AportacionPlanPersonaFisica = aportacionPlanPersonaFisica;
+            AportacionPlanEmpresa = aportacionPlanEmpresa;
+            Pais = pais;
+        }
     }
 }
