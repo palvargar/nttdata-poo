@@ -10,7 +10,7 @@ namespace CalculatorProject.PlanDePensiones
     {
         public static float CalcularEspana(PlanDePensiones plan)
         {
-            var totalDesgravado = 0.0F;
+            var totalDesgravado = 0.0f;
             if (plan.Base >= 0f && plan.Base < 12450f)
             {
                 totalDesgravado = (plan.AportacionPlanPersonaFisica + plan.AportacionPlanEmpresa) * 0.19f;

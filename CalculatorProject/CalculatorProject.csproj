@@ -47,6 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="Inheritance\Address.cs" />
+    <Compile Include="Inheritance\CreateList.cs" />
+    <Compile Include="Inheritance\NttDataBase.cs" />
+    <Compile Include="Inheritance\Student.cs" />
     <Compile Include="Loops\PrintProduct.cs" />
     <Compile Include="Loops\Product.cs" />
     <Compile Include="PlanDePensiones\Calculo.cs" />
