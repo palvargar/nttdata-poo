@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CalculatorProject.Polymorphism.Program</StartupObject>
+    <StartupObject>CalculatorProject.InterfaceExample.Principal</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,14 +51,27 @@
     <Compile Include="Inheritance\CreateList.cs" />
     <Compile Include="Inheritance\NttDataBase.cs" />
     <Compile Include="Inheritance\Student.cs" />
+    <Compile Include="InterfaceExample\Ave.cs" />
+    <Compile Include="InterfaceExample\AvePropiedades.cs" />
+    <Compile Include="InterfaceExample\Camion.cs" />
+    <Compile Include="InterfaceExample\Coche.cs" />
+    <Compile Include="InterfaceExample\IAve.cs" />
+    <Compile Include="InterfaceExample\IVehiculo.cs" />
+    <Compile Include="InterfaceExample\Moto.cs" />
+    <Compile Include="InterfaceExample\Principal.cs" />
+    <Compile Include="InterfaceExample\Vehiculo.cs" />
     <Compile Include="Loops\PrintProduct.cs" />
     <Compile Include="Loops\Product.cs" />
     <Compile Include="PlanDePensiones\Calculo.cs" />
     <Compile Include="PlanDePensiones\PlanDePensiones.cs" />
     <Compile Include="PlanDePensiones\Pregunta.cs" />
     <Compile Include="PlanDePensiones\Program.cs" />
+    <Compile Include="Polymorphism\Circle.cs" />
     <Compile Include="Polymorphism\Program.cs" />
+    <Compile Include="Polymorphism\Rectangle.cs" />
+    <Compile Include="Polymorphism\Shape.cs" />
     <Compile Include="Polymorphism\Student.cs" />
+    <Compile Include="Polymorphism\Triangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
